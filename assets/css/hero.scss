@@ -1,0 +1,30 @@
+/*===== HERO SECTION =======*/
+
+#hero {
+    background: url($hero-img) 50% 0 repeat fixed;
+    color: $hero-txt-color;
+    clip-path: polygon(50% 0%, 100% 0px, 100% 88%, 85% 100%, 0px 90%, 0px 0px);
+    div.overlay {
+        background-color: $hero-overlay;
+        min-height: $hero-min-height;
+        display: table;
+        width: 100%;
+        div {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            h1 {
+                font-family: $roboto;
+                font-size: 4em;
+                font-weight: 300;
+                color: #fff;
+            }
+            p {
+                font-family: $openSans;
+                font-weight: normal;
+                font-size: 1em;
+                color: #fff;
+            }
+        }
+    }
+}

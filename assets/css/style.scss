@@ -1,0 +1,27 @@
+/*===== Theme options like fonts , colors =======*/
+
+@import 'theme-options';
+
+
+/*===== Global styles =======*/
+
+@import 'global';
+
+/*===== NAVBAR =======*/
+
+@import 'navbar';
+
+/*===== HERO SECTION =======*/
+
+$hero-img: '../images/hero.jpg';
+$hero-txt-color: '#fff';
+$hero-min-height:600px;
+$hero-overlay:rgba(0, 0, 0, 0.32);
+
+@import 'hero';
+
+/*===== PORTFOLIO SECTION =======*/
+
+#portfolio {
+   @import 'masonary';
+}

@@ -1,0 +1,93 @@
+/*===== NAVBAR =======*/
+
+/*===== Small  screen =======*/
+
+.nav-wrapper {
+    .navbar {
+        border-bottom: 1px solid #ddd;
+        -webkit-box-shadow: 0px 2px 38px -3px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 2px 38px -3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 2px 38px -3px rgba(0, 0, 0, 0.15);
+    }
+    /*===== Small screen =======*/
+    .navbar {
+        padding: 12px 15px;
+        .navbar-toggler-icon{
+            color:#fff;
+        }
+    }
+    
+    /*===== Large screen =======*/
+    @media (min-width: 992px) {
+        .navbar {
+            padding: 12px 120px;
+        }
+    }
+    li.active {
+        background-color: $button-2-color;
+        :hover {
+            background-color: $button-2-color-hover;
+        }
+    }
+    a {
+        color: #6f6f6f;
+        font-size: 0.9em;
+        font-family: $openSans;
+    }
+    a.navbar-brand {
+        font-size: 1.5em;
+        font-family: $roboto;
+    }
+    a.nav-link {
+        padding-left: 20px;
+
+    }
+    .nav-1 {
+
+        a {
+            color: #fff;
+        }
+        $this: &;
+        
+      /*===== Regular screen =======*/
+
+        background-color: transparent;
+        border-bottom: 1px solid transparent;
+
+        /*===== Small screen =======*/
+        @media only screen and (max-width: $maxScreen ) {
+            & {
+                background-color:rgba(0, 0, 0, 0.73);
+                border-bottom: 1px solid #6b6b6b;
+            }
+        }
+
+        
+        -webkit-box-shadow: 0px 2px 38px -3px rgba(0, 0, 0, 0.0);
+        -moz-box-shadow: 0px 2px 38px -3px rgba(0, 0, 0, 0.0);
+        box-shadow: 0px 2px 38px -3px rgba(0, 0, 0, 0.0);
+
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+    }
+    .nav-2 {
+       .navbar-toggler-icon {
+            color: #000;
+        }
+        li.active {
+            a {
+                color: #fff;
+            }
+        }
+        background-color: #fff;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+    
+}
+}
+
+/*===== NAVBAR =======*/

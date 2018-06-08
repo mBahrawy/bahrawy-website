@@ -1,0 +1,75 @@
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+input,
+textarea {
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-weight: 100;
+    line-height: 1.1;
+}
+
+/*-- Links --*/
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover,
+a:focus,
+a:visited,
+a:link {
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+/*-- Effects --*/
+
+/*-- Break points--*/
+$maxScreen : '768px';
+/*-- Buttons --*/
+
+
+.my-btn {
+    margin: 30px 5px 0;
+    border: 2px solid #929292;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.my-btn-style-1 {
+    color: #f7f7f7;
+}
+
+.my-btn-style-1:hover {
+    background-color: #f1f1f1;
+    color: #000;
+    border-color: #f1f1f1;
+}
+
+.my-btn-style-2 {
+    border-color: $button-2-color;
+    background-color: $button-2-color;
+    color: #fff;
+}
+
+.my-btn-style-2:hover {
+    border-color: $button-2-color-hover;
+    background-color: $button-2-color-hover;
+    color: #fff;
+}
